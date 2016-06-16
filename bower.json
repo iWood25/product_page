@@ -1,5 +1,5 @@
 {
-  "name": "start_html",
+  "name": "Product_page",
   "homepage": "",
   "authors": [],
   "description": "",
@@ -16,10 +16,8 @@
   "devDependencies": {},
   "dependencies": {
     "normalize-css": "normalize.css#^3.0.3",
-    "slick-carousel": "slick.js#^1.5.9",
     "jquery": "^2.2.2",
     "jquery.scrollTo": "^2.1.2",
-    "font-awesome": "^4.5.0",
-    "masonry": "^4.0.0"
+    "font-awesome": "^4.5.0"
   }
 }

@@ -1,6 +1,6 @@
-#start_html
+#Product_page
 
-you need to install:
+You Need To Install:
 	-"npm i";
 	-"bower i"
 
@@ -22,9 +22,7 @@ you need to install:
 
 "dependencies": {
 	"normalize-css": "normalize.css#^3.0.3",
-	"slick-carousel": "slick.js#^1.5.9",
 	"jquery": "^2.2.2",
 	"jquery.scrollTo": "^2.1.2",
-	"font-awesome": "^4.5.0",
-	"masonry": "^4.0.0"
+	"font-awesome": "^4.5.0"
  }
