@@ -15,7 +15,7 @@ $highDefinition: 1920px;
 // -------------------------
 
 $white:						#fff;
-$concrete:				#f3f3f3;
+$concrete:				#f4f4f4;
 $gallery:					#f0f0f0;
 $alabaster:				#f8f8f8;
 $gallery:					#efefef;
@@ -71,3 +71,8 @@ $containerIndent: 3.5rem;
 
 $container: 127rem + $containerIndent * 2;
 $containerSecondary: 96.8rem + $containerIndent * 2;
+
+
+// Footer height
+// --------------------------------------------------
+$footer-height: 11.5rem;
