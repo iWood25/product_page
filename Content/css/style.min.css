@@ -43,20 +43,20 @@ body {
     position: relative;
     height: 11.5rem; }
 
-/* line 58, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
+/* line 59, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
 footer {
   position: relative;
   height: 11.5rem;
   margin-top: -11.5rem; }
 
-/* line 67, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
+/* line 68, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
 a,
 .link {
   color: #1a2631;
   font-weight: bold;
   text-decoration: none;
   transition: color .2s linear; }
-  /* line 74, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
+  /* line 75, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
   a:hover, a:focus,
   .link:hover,
   .link:focus {
@@ -64,16 +64,16 @@ a,
     outline: 0;
     text-decoration: none; }
 
-/* line 85, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
+/* line 86, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
 img {
   vertical-align: middle;
   max-width: 100%; }
 
-/* line 96, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
+/* line 97, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
 p {
   margin: 0; }
 
-/* line 103, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
+/* line 104, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
 h1,
 h2,
 h3,
@@ -86,17 +86,17 @@ h6 {
   text-align: center;
   letter-spacing: 2px; }
 
-/* line 116, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
+/* line 117, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
 .h2 {
   font-size: 4.5rem;
   padding-top: 4rem;
   padding-bottom: 2.5rem; }
   @media screen and (max-width: 1024px) {
-    /* line 116, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
+    /* line 117, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
     .h2 {
       font-size: 3.5rem; } }
 
-/* line 126, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
+/* line 127, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
 .h3 {
   font-size: 3.8rem;
   padding: 1rem 0; }
@@ -1043,7 +1043,7 @@ textarea {
 /* line 847, F:/IN/product_page/ContentBuild/scss/core/_grid.scss */
 .container {
   margin: auto;
-  max-width: 134rem; }
+  max-width: 117rem; }
   @media screen and (min-width: 480px) {
     /* line 847, F:/IN/product_page/ContentBuild/scss/core/_grid.scss */
     .container {

@@ -2,23 +2,6 @@
 // Mixins
 // --------------------------------------------------
 
-// Long text shadow
-// --------------------------------------------------
-
-@function MakeLongShadow($color) {
-	$val: 0px 0px $color;
-
-	@for $i from 1 through 23 {
-		$val: #{$val}, #{$i}px #{$i}px #{$color};
-		$color: $color + 0.3;
-	}
-
-	@return $val;
-}
-
-@mixin longShadow($color) {
-	text-shadow: MakeLongShadow($color);
-}
 
 // Aligment
 // --------------------------------------------------
