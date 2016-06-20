@@ -20,11 +20,13 @@ $mirage:					#1a2631;
 $black:						#000;
 $border:					#ffaf6a;
 $borderBottom:		#fe8e2f;
+$activeLink:			#ffc960; 
+
 
 // content colors
 $colorHeading: $mirage;
 $colorText: $white;
-$colorLinkHover: lighten( $concrete, 30% );
+$colorLinkHover: $activeLink;
 
 // Paths
 // -------------------------

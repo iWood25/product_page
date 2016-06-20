@@ -50,7 +50,7 @@ a,
   a:focus,
   .link:hover,
   .link:focus {
-    color: white;
+    color: #ffc960;
     outline: 0;
     text-decoration: none; }
 
@@ -818,7 +818,7 @@ ol {
 .header__top {
   padding-top: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid rgba(254, 142, 47, 0.3); }
+  border-bottom: 1px solid rgba(254, 142, 47, 0.8); }
 
 .logo {
   display: block; }
@@ -830,9 +830,10 @@ ol {
   display: inline-block; }
 
 .header__menu {
-  text-align: justify; }
+  text-align: justify;
+  font-size: 0; }
   .header__menu:after {
-    display: block;
+    display: inline-block;
     content: "";
     width: 100%;
     height: 0; }
@@ -868,6 +869,48 @@ ol {
   max-width: 100%;
   max-height: 100%;
   display: block; }
+
+.nav {
+  padding: 23px 0; }
+
+.nav__list {
+  text-align: justify;
+  font-size: 0px; }
+  .nav__list:after {
+    content: "";
+    width: 100%;
+    height: 0;
+    display: inline-block; }
+
+.nav__item {
+  display: inline-block; }
+
+.nav__item-icon, .nav__item-title {
+  display: inline-block;
+  vertical-align: middle; }
+
+.nav__item-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-left: 15px;
+  transition: color 0.2s linear; }
+
+.nav__item_link {
+  display: block;
+  text-decoration: none; }
+  .nav__item_link:hover .nav__item-title {
+    color: #ffc960; }
+  .nav__item_link:hover .nav__item-icon svg * {
+    fill: #ffc960 !important; }
+
+.nav__item-icon {
+  height: 30px; }
+  .nav__item-icon svg {
+    height: 100% !important; }
+    .nav__item-icon svg * {
+      fill: #fff !important;
+      transition: fill 0.2s linear; }
 
 .footer .container {
   padding-top: 35px;

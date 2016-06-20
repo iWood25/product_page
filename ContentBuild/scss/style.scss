@@ -16,10 +16,11 @@ background: -webkit-linear-gradient(left,  #1e5799 0%,#fb3e38 0%,#ff8f30 100%); 
 background: linear-gradient(to right,  #1e5799 0%,#fb3e38 0%,#ff8f30 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ff8f30',GradientType=1 ); /* IE6-9 */
 }
+
 .header__top{
 	padding-top: 2rem;
 	padding-bottom: 1rem;
-	border-bottom: 1px solid rgba($borderBottom, .3);
+	border-bottom: 1px solid rgba($borderBottom, .8);
 }
 
 .logo{
@@ -30,6 +31,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 	max-width: 100%;
 }
 
+
 // header menu
 // --------------------------------------------------
 .menu__item {
@@ -38,14 +40,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
 .header__menu {
 	text-align: justify;
+	font-size: 0;
 
 	&:after {
-		display: block;
+		display: inline-block;
 		content: "";
 		width: 100%;
 		height: 0;
 	}
 }
+
 .menu__link{
 	display: block;
 	padding: 0.6rem;
@@ -58,6 +62,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 	border: 2px solid $border;
 	border-radius: 50px;
 }
+
 .menu__link-text{
 	font-size: 1.3rem;
 }
@@ -69,6 +74,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 	bottom: 0;
 	width: 3rem;
 }
+
 .menu__link-icon-pic{
 	position:absolute;
 	top: 0;
@@ -82,7 +88,74 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 }
 
 
-// Content
+// Header nav
+// --------------------------------------------------
+
+.nav {
+	padding: 23px 0;
+}
+
+.nav__list{
+	text-align: justify;
+	font-size: 0px;
+
+	&:after{
+		content: "";
+		width: 100%;
+		height: 0;
+		display: inline-block;
+	}
+}
+
+.nav__item{
+	display: inline-block;
+}
+
+.nav__item-icon, .nav__item-title {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav__item-title {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-left: 15px;
+	transition: color .2s linear;
+}
+
+.nav__item_link {
+	display: block;
+	text-decoration: none;
+
+	&:hover {
+		.nav__item-title {
+			color: $colorLinkHover;
+		}
+
+		.nav__item-icon svg * {
+			fill : $colorLinkHover !important;
+		}
+
+	}
+}
+
+.nav__item-icon {
+	height: 30px;
+
+	svg {
+		height: 100% !important;
+
+		* {
+			fill: #fff !important;
+			transition: fill .2s linear;
+		}
+	}
+}
+
+
+
+// Footer
 // --------------------------------------------------
 
 .footer {
