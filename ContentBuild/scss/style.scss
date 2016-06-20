@@ -8,6 +8,15 @@
 // Redefinition
 // --------------------------------------------------
 
+.header{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,fb3e38+0,ff8f30+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(left,  #1e5799 0%, #fb3e38 0%, #ff8f30 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #1e5799 0%,#fb3e38 0%,#ff8f30 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #1e5799 0%,#fb3e38 0%,#ff8f30 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ff8f30',GradientType=1 ); /* IE6-9 */
+
+}
 
 
 // Content

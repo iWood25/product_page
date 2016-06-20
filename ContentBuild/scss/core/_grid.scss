@@ -12,9 +12,11 @@ $gridColumns: 12;
 	margin-right: 0;
 	margin-left: 0;
 
-	&:after {
+	&:after, &:before {
 		content: "";
 		display: table;
+	}
+	&:after{
 		clear: both;
 	}
 }
