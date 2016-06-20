@@ -15,21 +15,16 @@ $highDefinition: 1920px;
 // -------------------------
 
 $white:						#fff;
-$concrete:				#f4f4f4;
-$gallery:					#f0f0f0;
-$alabaster:				#f8f8f8;
-$gallery:					#efefef;
-$alto:						#ddd;
-$silver:					#c0c0c0;
-$dustyGray:				#979797;
-$doveGray:				#6c6c6c;
+$concrete:				#f0f0f0;
 $mirage:					#1a2631;
 $black:						#000;
+$border:					#ffaf6a;
+$borderBottom:		#fe8e2f;
 
 // content colors
 $colorHeading: $mirage;
-$colorText: $doveGray;
-$colorLinkHover: lighten( $mirage, 30% );
+$colorText: $white;
+$colorLinkHover: lighten( $concrete, 30% );
 
 // Paths
 // -------------------------
@@ -54,7 +49,7 @@ $fontSizeBase: 1.5rem;
 // Line heights
 // -------------------------
 
-$lineHeightBase: 1.55;
+$lineHeightBase: 1.42;
 
 // Borders
 // -------------------------

@@ -30,7 +30,6 @@ body {
 	font-size: $fontSizeBase;
 	line-height: $lineHeightBase;
 	-webkit-font-smoothing: antialiased; // font rendering
-	letter-spacing: 2.3px;
 
 	@include maxScreen($large) {
 		line-height: 1.8;
@@ -67,8 +66,7 @@ footer {
 
 a,
 .link {
-	color: $mirage;
-	font-weight: bold;
+	color: $white;
 	text-decoration: none;
 	transition: color .2s linear;
 

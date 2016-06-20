@@ -1,5 +1,37 @@
 ﻿// --------------------------------------------------
-// Form
+// Search form 
 // --------------------------------------------------
 
+.header__search {
+	position: relative;
+	margin-right: 2.3rem;
+}
+
+.search__input {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px 40px 10px 20px;
+	border: 0 none;
+	background: rgba(255, 255, 255, .2);
+	color: #fff;
+	outline: none;
+	border-radius: 50px;
+	&::placeholder{
+		color: #fff;
+	}
+}
+
+.search__submit {
+	position: absolute;
+	cursor: pointer;
+	right: 14px;
+	top: 50%;
+	background: url('/Content/img/icons/zoom.png') 0 0 no-repeat;
+	margin-top: -9px;
+	border: 0 none;
+	display: block;
+	width: 18px;
+	padding: 0;
+}
 
