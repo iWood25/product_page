@@ -79,22 +79,25 @@ h4,
 h5,
 h6 {
   color: #1a2631;
-  font-family: helveticaneuecyrroman, Geneva, Helvetica, sans-serif;
+  font-family: helveticaneuecyrlight, Geneva, Helvetica, sans-serif;
   margin: 0;
-  text-align: center;
-  letter-spacing: 2px; }
+  font-weight: normal; }
 
-/* line 115, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
+/* line 114, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
+h1 {
+  line-height: 1.6rem; }
+
+/* line 118, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
 .h2 {
   font-size: 4.5rem;
   padding-top: 4rem;
   padding-bottom: 2.5rem; }
   @media screen and (max-width: 1024px) {
-    /* line 115, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
+    /* line 118, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
     .h2 {
       font-size: 3.5rem; } }
 
-/* line 125, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
+/* line 128, F:/IN/product_page/ContentBuild/scss/core/_typography.scss */
 .h3 {
   font-size: 3.8rem;
   padding: 1rem 0; }
@@ -1069,7 +1072,7 @@ ol {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb3e38', endColorstr='#ff8f30',GradientType=1 );
   /* IE6-9 */
-  margin-bottom: 2rem; }
+  margin-bottom: 1.4rem; }
 
 /* line 20, F:/IN/product_page/ContentBuild/scss/style.scss */
 .header__top {
@@ -1191,11 +1194,20 @@ ol {
       fill: #fff !important;
       transition: fill .2s linear; }
 
-/* line 159, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 158, F:/IN/product_page/ContentBuild/scss/style.scss */
+.breadcrumbs {
+  margin-bottom: 10px; }
+
+/* line 161, F:/IN/product_page/ContentBuild/scss/style.scss */
+.breadcrumbs__list {
+  line-height: 1.6rem; }
+
+/* line 165, F:/IN/product_page/ContentBuild/scss/style.scss */
 .breadcrumbs__item {
   display: inline-block;
-  vertical-align: middle; }
-  /* line 163, F:/IN/product_page/ContentBuild/scss/style.scss */
+  vertical-align: middle;
+  line-height: 1.6rem; }
+  /* line 170, F:/IN/product_page/ContentBuild/scss/style.scss */
   .breadcrumbs__item:before {
     content: "";
     display: inline-block;
@@ -1204,30 +1216,38 @@ ol {
     width: 1.7rem;
     height: 0.7rem;
     margin: 0 1rem; }
-  /* line 174, F:/IN/product_page/ContentBuild/scss/style.scss */
+  /* line 181, F:/IN/product_page/ContentBuild/scss/style.scss */
   .breadcrumbs__item:first-child:before {
     display: none; }
 
-/* line 180, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 187, F:/IN/product_page/ContentBuild/scss/style.scss */
 .breadcrumbs__link {
   font-size: 1.1rem;
   color: #fa3f37; }
-  /* line 184, F:/IN/product_page/ContentBuild/scss/style.scss */
+  /* line 191, F:/IN/product_page/ContentBuild/scss/style.scss */
   .breadcrumbs__link:hover {
     text-decoration: underline;
     color: #fa3f37; }
 
-/* line 196, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 199, F:/IN/product_page/ContentBuild/scss/style.scss */
+.section-title {
+  margin-bottom: 2.5rem; }
+
+/* line 203, F:/IN/product_page/ContentBuild/scss/style.scss */
+.title {
+  font-size: 2.4rem; }
+
+/* line 212, F:/IN/product_page/ContentBuild/scss/style.scss */
 .footer .container {
   padding-top: 3.5rem;
   text-align: center;
   font-size: 1.3rem; }
 
-/* line 203, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 219, F:/IN/product_page/ContentBuild/scss/style.scss */
 .footer__address, .footer__copyright {
   margin-bottom: 1.5rem;
   color: #2e2e2e; }
 
-/* line 208, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 224, F:/IN/product_page/ContentBuild/scss/style.scss */
 .footer__address {
   margin-bottom: 1.5rem; }

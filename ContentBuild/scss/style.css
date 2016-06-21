@@ -83,10 +83,13 @@ h4,
 h5,
 h6 {
   color: #1a2631;
-  font-family: helveticaneuecyrroman, Geneva, Helvetica, sans-serif;
+  font-family: helveticaneuecyrlight, Geneva, Helvetica, sans-serif;
   margin: 0;
-  text-align: center;
-  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+h1 {
+  line-height: 1.6rem;
 }
 
 .h2 {
@@ -1094,7 +1097,7 @@ ol {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb3e38', endColorstr='#ff8f30',GradientType=1 );
   /* IE6-9 */
-  margin-bottom: 2rem;
+  margin-bottom: 1.4rem;
 }
 
 .header__top {
@@ -1223,9 +1226,18 @@ ol {
   transition: fill 0.2s linear;
 }
 
+.breadcrumbs {
+  margin-bottom: 10px;
+}
+
+.breadcrumbs__list {
+  line-height: 1.6rem;
+}
+
 .breadcrumbs__item {
   display: inline-block;
   vertical-align: middle;
+  line-height: 1.6rem;
 }
 
 .breadcrumbs__item:before {
@@ -1250,6 +1262,14 @@ ol {
 .breadcrumbs__link:hover {
   text-decoration: underline;
   color: #fa3f37;
+}
+
+.section-title {
+  margin-bottom: 2.5rem;
+}
+
+.title {
+  font-size: 2.4rem;
 }
 
 .footer .container {

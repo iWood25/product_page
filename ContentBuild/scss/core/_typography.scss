@@ -106,10 +106,13 @@ h4,
 h5,
 h6 {
 	color: $colorHeading;
-	font-family: $helveticaRoman;
+	font-family: $helveticaLight;
 	margin: 0;
-	text-align: center;
-	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+h1{
+	line-height: 1.6rem;
 }
 
 .h2 {
