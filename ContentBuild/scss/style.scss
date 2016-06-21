@@ -9,12 +9,12 @@
 // --------------------------------------------------
 
 .header{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,fb3e38+0,ff8f30+100 */
-background: #1e5799; /* Old browsers */
-background: -moz-linear-gradient(left,  #1e5799 0%, #fb3e38 0%, #ff8f30 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  #1e5799 0%,#fb3e38 0%,#ff8f30 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  #1e5799 0%,#fb3e38 0%,#ff8f30 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ff8f30',GradientType=1 ); /* IE6-9 */
+background: #fb3e38; /* Old browsers */
+background: -moz-linear-gradient(left, #fb3e38 17%, #fb3e38 17%, #ff8f30 85%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #fb3e38 17%,#fb3e38 17%,#ff8f30 85%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #fb3e38 17%,#fb3e38 17%,#ff8f30 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb3e38', endColorstr='#ff8f30',GradientType=1 ); /* IE6-9 */
+margin-bottom: 2rem;
 }
 
 .header__top{
@@ -92,12 +92,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 // --------------------------------------------------
 
 .nav {
-	padding: 23px 0;
+	padding: 2.3rem 0;
 }
 
 .nav__list{
 	text-align: justify;
-	font-size: 0px;
+	font-size: 0;
 
 	&:after{
 		content: "";
@@ -117,10 +117,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 }
 
 .nav__item-title {
-	font-size: 12px;
+	font-size: 1.2rem;
 	text-transform: uppercase;
 	color: #fff;
-	margin-left: 15px;
+	margin-left: 1.5rem;
 	transition: color .2s linear;
 }
 
@@ -141,7 +141,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 }
 
 .nav__item-icon {
-	height: 30px;
+	height: 3rem;
 
 	svg {
 		height: 100% !important;
@@ -153,6 +153,40 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 	}
 }
 
+// Breadcrumbs
+// --------------------------------------------------
+
+.breadcrumbs__item{
+	display: inline-block;
+	vertical-align: middle;
+
+	&:before{
+		content: "";
+		display: inline-block;
+		vertical-align: middle;
+		background-image: url('../../Content/img/decor/arrow.png');
+		width: 1.7rem;
+		height: 0.7rem;
+		margin: 0 1rem;
+	}
+
+	&:first-child{
+		&:before{
+			display: none;
+		}
+	}
+}
+
+.breadcrumbs__link{
+	font-size: 1.1rem;
+	color: $colorLink;
+
+	&:hover{
+		text-decoration: underline;
+		color: $colorLink;
+	}
+}
+
 
 
 // Footer
@@ -160,17 +194,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
 .footer {
 	.container {
-		padding-top: 35px;
+		padding-top: 3.5rem;
 		text-align: center;
-		font-size: 13px;
+		font-size: 1.3rem;
 	}
 }
 
 .footer__address, .footer__copyright {
-	margin-bottom: 15px;
+	margin-bottom: 1.5rem;
 	color: #2e2e2e;
 }
 
 .footer__address{
-	margin-bottom: 15px;
+	margin-bottom: 1.5rem;
 }

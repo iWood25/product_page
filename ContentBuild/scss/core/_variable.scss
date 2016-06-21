@@ -18,15 +18,18 @@ $white:						#fff;
 $concrete:				#f0f0f0;
 $mirage:					#1a2631;
 $black:						#000;
-$border:					#ffaf6a;
-$borderBottom:		#fe8e2f;
-$activeLink:			#ffc960; 
+
 
 
 // content colors
-$colorHeading: $mirage;
-$colorText: $white;
-$colorLinkHover: $activeLink;
+$mainColor:				#fb3e38; 
+$border:					#ffaf6a;
+$borderBottom:		#fe8e2f;
+$activeLink:			#ffc960; 
+$colorHeading:		$mirage;
+$colorText:				$white;
+$colorLink:				#fa3f37;
+$colorLinkHover:	$activeLink;
 
 // Paths
 // -------------------------

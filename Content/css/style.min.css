@@ -1061,15 +1061,15 @@ ol {
 
 /* line 11, F:/IN/product_page/ContentBuild/scss/style.scss */
 .header {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,fb3e38+0,ff8f30+100 */
-  background: #1e5799;
+  background: #fb3e38;
   /* Old browsers */
   /* FF3.6-15 */
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #1e5799 0%, #fb3e38 0%, #ff8f30 100%);
+  background: linear-gradient(to right, #fb3e38 17%, #fb3e38 17%, #ff8f30 85%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ff8f30',GradientType=1 );
-  /* IE6-9 */ }
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb3e38', endColorstr='#ff8f30',GradientType=1 );
+  /* IE6-9 */
+  margin-bottom: 2rem; }
 
 /* line 20, F:/IN/product_page/ContentBuild/scss/style.scss */
 .header__top {
@@ -1139,12 +1139,12 @@ ol {
 
 /* line 94, F:/IN/product_page/ContentBuild/scss/style.scss */
 .nav {
-  padding: 23px 0; }
+  padding: 2.3rem 0; }
 
 /* line 98, F:/IN/product_page/ContentBuild/scss/style.scss */
 .nav__list {
   text-align: justify;
-  font-size: 0px; }
+  font-size: 0; }
   /* line 102, F:/IN/product_page/ContentBuild/scss/style.scss */
   .nav__list:after {
     content: "";
@@ -1163,10 +1163,10 @@ ol {
 
 /* line 119, F:/IN/product_page/ContentBuild/scss/style.scss */
 .nav__item-title {
-  font-size: 12px;
+  font-size: 1.2rem;
   text-transform: uppercase;
   color: #fff;
-  margin-left: 15px;
+  margin-left: 1.5rem;
   transition: color .2s linear; }
 
 /* line 127, F:/IN/product_page/ContentBuild/scss/style.scss */
@@ -1182,7 +1182,7 @@ ol {
 
 /* line 143, F:/IN/product_page/ContentBuild/scss/style.scss */
 .nav__item-icon {
-  height: 30px; }
+  height: 3rem; }
   /* line 146, F:/IN/product_page/ContentBuild/scss/style.scss */
   .nav__item-icon svg {
     height: 100% !important; }
@@ -1191,17 +1191,43 @@ ol {
       fill: #fff !important;
       transition: fill .2s linear; }
 
-/* line 162, F:/IN/product_page/ContentBuild/scss/style.scss */
-.footer .container {
-  padding-top: 35px;
-  text-align: center;
-  font-size: 13px; }
+/* line 159, F:/IN/product_page/ContentBuild/scss/style.scss */
+.breadcrumbs__item {
+  display: inline-block;
+  vertical-align: middle; }
+  /* line 163, F:/IN/product_page/ContentBuild/scss/style.scss */
+  .breadcrumbs__item:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url("../../Content/img/decor/arrow.png");
+    width: 1.7rem;
+    height: 0.7rem;
+    margin: 0 1rem; }
+  /* line 174, F:/IN/product_page/ContentBuild/scss/style.scss */
+  .breadcrumbs__item:first-child:before {
+    display: none; }
 
-/* line 169, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 180, F:/IN/product_page/ContentBuild/scss/style.scss */
+.breadcrumbs__link {
+  font-size: 1.1rem;
+  color: #fa3f37; }
+  /* line 184, F:/IN/product_page/ContentBuild/scss/style.scss */
+  .breadcrumbs__link:hover {
+    text-decoration: underline;
+    color: #fa3f37; }
+
+/* line 196, F:/IN/product_page/ContentBuild/scss/style.scss */
+.footer .container {
+  padding-top: 3.5rem;
+  text-align: center;
+  font-size: 1.3rem; }
+
+/* line 203, F:/IN/product_page/ContentBuild/scss/style.scss */
 .footer__address, .footer__copyright {
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
   color: #2e2e2e; }
 
-/* line 174, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 208, F:/IN/product_page/ContentBuild/scss/style.scss */
 .footer__address {
-  margin-bottom: 15px; }
+  margin-bottom: 1.5rem; }
