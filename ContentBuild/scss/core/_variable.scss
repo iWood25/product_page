@@ -65,12 +65,12 @@ $borderBlack: 2px solid $black;
 // Indents
 // --------------------------------------------------
 
-$containerIndent: 0;
+$containerIndent: 3.5rem;
 
 // Container width
 // --------------------------------------------------
 
-$container: 117rem;
+$container: 117rem + $containerIndent * 2;
 $containerSecondary: 96.8rem + $containerIndent * 2;
 
 

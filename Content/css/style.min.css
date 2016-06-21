@@ -1035,32 +1035,32 @@ ol {
 /* line 849, F:/IN/product_page/ContentBuild/scss/core/_grid.scss */
 .container {
   margin: auto;
-  max-width: 117rem; }
+  max-width: 124rem; }
   @media screen and (min-width: 480px) {
     /* line 849, F:/IN/product_page/ContentBuild/scss/core/_grid.scss */
     .container {
-      padding-left: 0;
-      padding-right: 0; } }
+      padding-left: 3.5rem;
+      padding-right: 3.5rem; } }
   @media screen and (max-width: 480px) {
     /* line 849, F:/IN/product_page/ContentBuild/scss/core/_grid.scss */
     .container {
-      padding-left: 0;
-      padding-right: 0; } }
+      padding-left: 1.75rem;
+      padding-right: 1.75rem; } }
 
 /* line 864, F:/IN/product_page/ContentBuild/scss/core/_grid.scss */
 .container-secondary {
   margin: auto;
-  max-width: 96.8rem; }
+  max-width: 103.8rem; }
   @media screen and (min-width: 480px) {
     /* line 864, F:/IN/product_page/ContentBuild/scss/core/_grid.scss */
     .container-secondary {
-      padding-left: 0;
-      padding-right: 0; } }
+      padding-left: 3.5rem;
+      padding-right: 3.5rem; } }
   @media screen and (max-width: 480px) {
     /* line 864, F:/IN/product_page/ContentBuild/scss/core/_grid.scss */
     .container-secondary {
-      padding-left: 0;
-      padding-right: 0; } }
+      padding-left: 1.75rem;
+      padding-right: 1.75rem; } }
 
 /* line 11, F:/IN/product_page/ContentBuild/scss/style.scss */
 .header {
