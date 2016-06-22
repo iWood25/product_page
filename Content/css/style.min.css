@@ -1230,18 +1230,18 @@ ol {
 .title {
   font-size: 2.4rem; }
 
-/* line 210, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 211, F:/IN/product_page/ContentBuild/scss/style.scss */
 .categories__item {
   border-bottom: 1px solid #DCDCDC; }
 
-/* line 214, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 215, F:/IN/product_page/ContentBuild/scss/style.scss */
 .categories__link {
   display: block;
   padding: 2.1rem 2.6rem;
   position: relative;
   padding-right: 5rem; }
 
-/* line 221, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 222, F:/IN/product_page/ContentBuild/scss/style.scss */
 .categoris__title {
   width: 100%;
   font-size: 0; }
@@ -1253,14 +1253,14 @@ ol {
   .categoris__title:after {
     clear: both; }
 
-/* line 227, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 228, F:/IN/product_page/ContentBuild/scss/style.scss */
 .categories__icon {
   display: inline-block;
   width: 10%;
   vertical-align: middle;
   text-align: center; }
 
-/* line 234, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 235, F:/IN/product_page/ContentBuild/scss/style.scss */
 .categories__text {
   color: #2e2e2e;
   display: inline-block;
@@ -1269,7 +1269,7 @@ ol {
   padding-left: 2rem;
   font-size: 1.5rem; }
 
-/* line 243, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 244, F:/IN/product_page/ContentBuild/scss/style.scss */
 .categories__amount {
   position: absolute;
   right: 1.7rem;
@@ -1279,12 +1279,12 @@ ol {
   margin-top: -0.8rem;
   color: rgba(46, 46, 46, 0.5); }
 
-/* line 254, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 255, F:/IN/product_page/ContentBuild/scss/style.scss */
 .categories__icon-pic {
   max-width: 100%;
   max-height: 100%; }
 
-/* line 263, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 264, F:/IN/product_page/ContentBuild/scss/style.scss */
 .products__item {
   position: relative;
   border-top: 1px solid #DCDCDC; }
@@ -1295,22 +1295,22 @@ ol {
   /* line 17, F:/IN/product_page/ContentBuild/scss/core/_mixin.scss */
   .products__item:after {
     clear: both; }
-  /* line 268, F:/IN/product_page/ContentBuild/scss/style.scss */
+  /* line 269, F:/IN/product_page/ContentBuild/scss/style.scss */
   .products__item:first-child {
     border-top: none; }
 
-/* line 273, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 274, F:/IN/product_page/ContentBuild/scss/style.scss */
 .products__item-slideshow {
   padding: 2rem;
   float: left;
   width: 30%; }
 
-/* line 279, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 280, F:/IN/product_page/ContentBuild/scss/style.scss */
 .slideshow__display {
   height: 25rem;
   position: relative; }
 
-/* line 284, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 285, F:/IN/product_page/ContentBuild/scss/style.scss */
 .slideshow__display-img {
   text-align: center;
   top: 0;
@@ -1331,18 +1331,18 @@ ol {
 .slideshow__thumbs:after {
   clear: both; }
 
-/* line 300, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 301, F:/IN/product_page/ContentBuild/scss/style.scss */
 .slideshow__thumbs-item {
   float: left;
   width: 25%; }
 
-/* line 305, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 306, F:/IN/product_page/ContentBuild/scss/style.scss */
 .slideshow__thumbs-link {
   display: block;
   position: relative;
   height: 50px; }
 
-/* line 311, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 312, F:/IN/product_page/ContentBuild/scss/style.scss */
 .slideshow__thumbs-img {
   position: absolute;
   display: block;
@@ -1354,27 +1354,27 @@ ol {
   max-width: 95%;
   max-height: 95%; }
 
-/* line 323, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 324, F:/IN/product_page/ContentBuild/scss/style.scss */
 .products__title {
   font-size: 2.8rem;
   font-weight: normal;
   margin-bottom: 2rem;
   font-family: helveticaneuecyrlight, Geneva, Helvetica, sans-serif; }
 
-/* line 330, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 331, F:/IN/product_page/ContentBuild/scss/style.scss */
 .products__options {
   font-size: 1.4rem; }
-  /* line 333, F:/IN/product_page/ContentBuild/scss/style.scss */
+  /* line 334, F:/IN/product_page/ContentBuild/scss/style.scss */
   .products__options li {
     line-height: 2.2rem;
     margin-bottom: 0.8rem; }
 
-/* line 340, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 341, F:/IN/product_page/ContentBuild/scss/style.scss */
 .products__item-desc {
   float: left;
   width: 45%;
   padding: 2.5rem; }
-  /* line 345, F:/IN/product_page/ContentBuild/scss/style.scss */
+  /* line 346, F:/IN/product_page/ContentBuild/scss/style.scss */
   .products__item-desc:before {
     content: "";
     position: absolute;
@@ -1384,7 +1384,7 @@ ol {
     background: #e7e7e7;
     left: 30%; }
 
-/* line 356, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 357, F:/IN/product_page/ContentBuild/scss/style.scss */
 .products__item-buy {
   position: absolute;
   right: 0px;
@@ -1393,7 +1393,7 @@ ol {
   width: 25%;
   font-family: helveticaneuecyrmedium, Geneva, Helvetica, sans-serif; }
 
-/* line 365, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 366, F:/IN/product_page/ContentBuild/scss/style.scss */
 .products__buy-inner {
   position: absolute;
   top: 2rem;
@@ -1403,11 +1403,11 @@ ol {
   border: 1px solid #DCDCDC;
   padding: 2rem; }
 
-/* line 375, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 376, F:/IN/product_page/ContentBuild/scss/style.scss */
 .products__price {
   font-size: 2.4rem; }
 
-/* line 379, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 380, F:/IN/product_page/ContentBuild/scss/style.scss */
 .products__buy-link {
   position: absolute;
   bottom: 2rem;
@@ -1419,21 +1419,62 @@ ol {
   font-size: 2rem;
   border-radius: 2rem; }
 
-/* line 391, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 392, F:/IN/product_page/ContentBuild/scss/style.scss */
 .content {
   border-left: 1px solid #DCDCDC; }
 
-/* line 401, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 399, F:/IN/product_page/ContentBuild/scss/style.scss */
+.pagination {
+  text-align: center;
+  padding: 3.5rem 0; }
+
+/* line 404, F:/IN/product_page/ContentBuild/scss/style.scss */
+.pagination__control, .paginaton__list {
+  display: inline-block;
+  vertical-align: middle; }
+
+/* line 408, F:/IN/product_page/ContentBuild/scss/style.scss */
+.pagination__control {
+  color: #cecece; }
+
+/* line 412, F:/IN/product_page/ContentBuild/scss/style.scss */
+.paginaton__list {
+  color: #2e2e2e;
+  margin: 0 1rem; }
+
+/* line 417, F:/IN/product_page/ContentBuild/scss/style.scss */
+.pagination__item {
+  display: inline-block;
+  vertical-align: middle; }
+  /* line 421, F:/IN/product_page/ContentBuild/scss/style.scss */
+  .pagination__item:first-child {
+    margin-left: 0;
+    font-size: 1.6rem;
+    text-decoration: none; }
+
+/* line 428, F:/IN/product_page/ContentBuild/scss/style.scss */
+.pagination__link {
+  font-size: 1.6rem;
+  color: #000;
+  text-decoration: none;
+  width: 3rem;
+  text-align: center;
+  display: block; }
+  /* line 436, F:/IN/product_page/ContentBuild/scss/style.scss */
+  .pagination__link:hover {
+    color: #ffc960; }
+
+/* line 445, F:/IN/product_page/ContentBuild/scss/style.scss */
 .footer .container {
   padding-top: 3.5rem;
   text-align: center;
   font-size: 1.3rem; }
 
-/* line 408, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 452, F:/IN/product_page/ContentBuild/scss/style.scss */
 .footer__address, .footer__copyright {
   margin-bottom: 1.5rem;
   color: #2e2e2e; }
 
-/* line 413, F:/IN/product_page/ContentBuild/scss/style.scss */
+/* line 457, F:/IN/product_page/ContentBuild/scss/style.scss */
 .footer__address {
   margin-bottom: 1.5rem; }

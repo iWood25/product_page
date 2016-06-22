@@ -1466,6 +1466,49 @@ ol {
   border-left: 1px solid #DCDCDC;
 }
 
+.pagination {
+  text-align: center;
+  padding: 3.5rem 0;
+}
+
+.pagination__control, .paginaton__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pagination__control {
+  color: #cecece;
+}
+
+.paginaton__list {
+  color: #2e2e2e;
+  margin: 0 1rem;
+}
+
+.pagination__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pagination__item:first-child {
+  margin-left: 0;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.pagination__link {
+  font-size: 1.6rem;
+  color: #000;
+  text-decoration: none;
+  width: 3rem;
+  text-align: center;
+  display: block;
+}
+
+.pagination__link:hover {
+  color: #ffc960;
+}
+
 .footer .container {
   padding-top: 3.5rem;
   text-align: center;
