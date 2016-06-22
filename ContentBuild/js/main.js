@@ -1,5 +1,12 @@
 ﻿$(function () {
 
+	// Toggle-mnu
+	$(".toggle-mnu").click(function () {
+		$(this).toggleClass("on");
+		$(".main-mnu").slideToggle();
+		return false;
+	});
+
 });
 
 $(window).load(function () {

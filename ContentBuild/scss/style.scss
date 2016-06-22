@@ -25,10 +25,40 @@
 
 .logo {
 	display: block;
+
+	@include maxScreen($small) {
+		text-align: center;
+	}
+	@include maxScreen($large) {
+		margin-bottom: 1rem;
+	}
 }
 
 .logo__pic {
 	max-width: 100%;
+}
+
+.header__search-wrapper{
+	@extend .cf;
+	margin-bottom: 1rem;
+}
+
+.mobile-mnu {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 20%;
+
+
+	a {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		display: block;
+	}
 }
 
 
@@ -36,6 +66,11 @@
 // --------------------------------------------------
 .menu__item {
 	display: inline-block;
+
+	@include maxScreen($small) {
+		text-align: center;
+		display: block;
+	}
 }
 
 .header__menu {
@@ -61,6 +96,12 @@
 	padding-left: 5rem;
 	border: 2px solid $border;
 	border-radius: 50px;
+
+
+	@include maxScreen($small) {
+		width: 50%;
+		left: 25%;
+	}
 }
 
 .menu__link-text {
@@ -94,6 +135,7 @@
 .nav {
 	padding: 2.3rem 0;
 }
+
 
 .nav__list {
 	text-align: justify;
@@ -378,18 +420,10 @@
 }
 
 .products__buy-link {
-	position: absolute;
-	bottom: 2rem;
-	display: block;
-	background: $colorButton;
-	padding: 1rem 4rem;
-	text-decoration: none;
-	left: 2rem;
-	font-size: 2rem;
-	border-radius: 2rem;
+	@extend .btn;
 }
 
-.content{
+.content {
 	border-left: $borderGainsborough;
 }
 
@@ -405,6 +439,7 @@
 	display: inline-block;
 	vertical-align: middle;
 }
+
 .pagination__control {
 	color: $arrow;
 }
