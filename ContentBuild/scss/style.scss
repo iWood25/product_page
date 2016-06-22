@@ -204,16 +204,68 @@
 .title {
 	font-size: 2.4rem;
 }
+// Categories
+// --------------------------------------------------
+
+.categories__item {
+	border-bottom: $borderGainsborough;
+}
+
+.categories__link {
+	display: block;
+	padding: 2.1rem 2.6rem;
+	position: relative;
+	padding-right: 5rem;
+}
+
+.categoris__title {
+	width: 100%;
+	@include clearfix;
+	font-size: 0; //important, because are not displaced inline-block
+}
+
+.categories__icon {
+	display: inline-block;
+	width: 10%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.categories__text {
+	color: $colorText;
+	display: inline-block;
+	vertical-align: middle;
+	width: 90%;
+	padding-left: 2rem;
+	font-size: 1.5rem;
+}
+
+.categories__amount {
+	position: absolute;
+	right: 1.7rem;
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+	top: 50%;
+	margin-top: -0.8rem;
+	color: rgba($colorText, .5);
+}
+
+
+.categories__icon-pic {
+	max-width: 100%;
+	max-height: 100%;
+}
+
 
 // Content
 // --------------------------------------------------
 
-.products__item{
+.products__item {
 	@include clearfix;
 	position: relative;
 	border-top: $borderGainsborough;
 
-		&:first-child {
+	&:first-child {
 		border-top: none;
 	}
 }
@@ -223,6 +275,67 @@
 	float: left;
 	width: 30%;
 }
+
+.slideshow__display {
+	height: 25rem;
+	position: relative;
+}
+
+.slideshow__display-img {
+	text-align: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	max-width: 95%; //important, because img may be different sizes
+	max-height: 95%; //important, because img may be different sizes
+	position: absolute;
+}
+
+.slideshow__thumbs {
+	@include clearfix;
+}
+
+.slideshow__thumbs-item {
+	float: left;
+	width: 25%;
+}
+
+.slideshow__thumbs-link {
+	display: block;
+	position: relative;
+	height: 50px;
+}
+
+.slideshow__thumbs-img {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	max-width: 95%;
+	max-height: 95%;
+}
+
+.products__title {
+	font-size: 2.8rem;
+	font-weight: normal;
+	margin-bottom: 2rem;
+	font-family: $helveticaLight;
+}
+
+.products__options {
+	font-size: 1.4rem;
+
+	li {
+		line-height: 2.2rem;
+		margin-bottom: 0.8rem;
+	}
+}
+
 
 .products__item-desc {
 	float: left;
@@ -249,7 +362,35 @@
 	font-family: $helveticaMedium;
 }
 
+.products__buy-inner {
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+	bottom: 2rem;
+	right: 2rem;
+	border: $borderGainsborough;
+	padding: 2rem;
+}
 
+.products__price {
+	font-size: 2.4rem;
+}
+
+.products__buy-link {
+	position: absolute;
+	bottom: 2rem;
+	display: block;
+	background: $colorButton;
+	padding: 1rem 4rem;
+	text-decoration: none;
+	left: 2rem;
+	font-size: 2rem;
+	border-radius: 2rem;
+}
+
+.content{
+	border-left: $borderGainsborough;
+}
 
 
 

@@ -115,17 +115,4 @@ h1{
 	line-height: 1.6rem;
 }
 
-.h2 {
-	font-size: 4.5rem;
-	padding-top: 4rem;
-	padding-bottom: 2.5rem;
 
-	@include maxScreen($large) {
-		font-size: 3.5rem;
-	}
-}
-
-.h3 {
-	font-size: 3.8rem;
-	padding: 1rem 0;
-}

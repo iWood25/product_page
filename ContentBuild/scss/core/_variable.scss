@@ -19,19 +19,24 @@ $concrete:				#f0f0f0;
 $Gainsborough:		#DCDCDC;
 $mirage:					#2e2e2e;
 $black:						#000;
+$mainColor:				#fb3e38;
+$Jaco:						#fe8e2f;
+
 
 
 
 // content colors
-$mainColor:								#fb3e38; 
+ 
 $border:									#ffaf6a;
-$borderBottom:						#fe8e2f;
+$borderBottom:						$Jaco;
 $activeLink:							#ffc960; 
 $colorHeading:						$mirage;
 $colorText:								$mirage;
 $colorLink:								#fa3f37;
 $colorLinkHover:					$activeLink;
 $colorBackgroundContent:	$white;
+$colorButton:							$Jaco;
+
 
 // Paths
 // -------------------------
@@ -64,6 +69,8 @@ $lineHeightBase: 1.42;
 $borderWhite: 3px solid $white;
 $borderBlack: 2px solid $black;
 $borderGainsborough: 1px solid $Gainsborough;
+
+
 
 // Indents
 // --------------------------------------------------
