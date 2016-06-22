@@ -16,20 +16,22 @@ $highDefinition: 1920px;
 
 $white:						#fff;
 $concrete:				#f0f0f0;
-$mirage:					#1a2631;
+$Gainsborough:		#DCDCDC;
+$mirage:					#2e2e2e;
 $black:						#000;
 
 
 
 // content colors
-$mainColor:				#fb3e38; 
-$border:					#ffaf6a;
-$borderBottom:		#fe8e2f;
-$activeLink:			#ffc960; 
-$colorHeading:		$mirage;
-$colorText:				$white;
-$colorLink:				#fa3f37;
-$colorLinkHover:	$activeLink;
+$mainColor:								#fb3e38; 
+$border:									#ffaf6a;
+$borderBottom:						#fe8e2f;
+$activeLink:							#ffc960; 
+$colorHeading:						$mirage;
+$colorText:								$mirage;
+$colorLink:								#fa3f37;
+$colorLinkHover:					$activeLink;
+$colorBackgroundContent:	$white;
 
 // Paths
 // -------------------------
@@ -61,11 +63,12 @@ $lineHeightBase: 1.42;
 
 $borderWhite: 3px solid $white;
 $borderBlack: 2px solid $black;
+$borderGainsborough: 1px solid $Gainsborough;
 
 // Indents
 // --------------------------------------------------
 
-$containerIndent: 3.5rem;
+$containerIndent: 2rem;
 
 // Container width
 // --------------------------------------------------

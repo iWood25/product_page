@@ -8,26 +8,26 @@
 // Redefinition
 // --------------------------------------------------
 
-.header{
-background: #fb3e38; /* Old browsers */
-background: -moz-linear-gradient(left, #fb3e38 17%, #fb3e38 17%, #ff8f30 85%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #fb3e38 17%,#fb3e38 17%,#ff8f30 85%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #fb3e38 17%,#fb3e38 17%,#ff8f30 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb3e38', endColorstr='#ff8f30',GradientType=1 ); /* IE6-9 */
-margin-bottom: 1.4rem;
+.header {
+	background: #fb3e38; /* Old browsers */
+	background: -moz-linear-gradient(left, #fb3e38 17%, #fb3e38 17%, #ff8f30 85%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #fb3e38 17%,#fb3e38 17%,#ff8f30 85%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #fb3e38 17%,#fb3e38 17%,#ff8f30 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb3e38', endColorstr='#ff8f30',GradientType=1 ); /* IE6-9 */
+	margin-bottom: 1.4rem;
 }
 
-.header__top{
+.header__top {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
 	border-bottom: 1px solid rgba($borderBottom, .8);
 }
 
-.logo{
+.logo {
 	display: block;
 }
 
-.logo__pic{
+.logo__pic {
 	max-width: 100%;
 }
 
@@ -50,12 +50,12 @@ margin-bottom: 1.4rem;
 	}
 }
 
-.menu__link{
+.menu__link {
 	display: block;
 	padding: 0.6rem;
 }
 
-.menu__link-iconed{
+.menu__link-iconed {
 	position: relative;
 	padding-right: 2rem;
 	padding-left: 5rem;
@@ -63,11 +63,11 @@ margin-bottom: 1.4rem;
 	border-radius: 50px;
 }
 
-.menu__link-text{
+.menu__link-text {
 	font-size: 1.3rem;
 }
 
-.menu__link-icon{
+.menu__link-icon {
 	position: absolute;
 	left: 1.3rem;
 	top: 0;
@@ -75,8 +75,8 @@ margin-bottom: 1.4rem;
 	width: 3rem;
 }
 
-.menu__link-icon-pic{
-	position:absolute;
+.menu__link-icon-pic {
+	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -95,11 +95,11 @@ margin-bottom: 1.4rem;
 	padding: 2.3rem 0;
 }
 
-.nav__list{
+.nav__list {
 	text-align: justify;
 	font-size: 0;
 
-	&:after{
+	&:after {
 		content: "";
 		width: 100%;
 		height: 0;
@@ -107,7 +107,7 @@ margin-bottom: 1.4rem;
 	}
 }
 
-.nav__item{
+.nav__item {
 	display: inline-block;
 }
 
@@ -134,9 +134,8 @@ margin-bottom: 1.4rem;
 		}
 
 		.nav__item-icon svg * {
-			fill : $colorLinkHover !important;
+			fill: $colorLinkHover !important;
 		}
-
 	}
 }
 
@@ -158,16 +157,17 @@ margin-bottom: 1.4rem;
 .breadcrumbs {
 	margin-bottom: 10px;
 }
-.breadcrumbs__list{
+
+.breadcrumbs__list {
 	line-height: 1.6rem;
 }
 
-.breadcrumbs__item{
+.breadcrumbs__item {
 	display: inline-block;
 	vertical-align: middle;
 	line-height: 1.6rem;
 
-	&:before{
+	&:before {
 		content: "";
 		display: inline-block;
 		vertical-align: middle;
@@ -177,18 +177,18 @@ margin-bottom: 1.4rem;
 		margin: 0 1rem;
 	}
 
-	&:first-child{
-		&:before{
+	&:first-child {
+		&:before {
 			display: none;
 		}
 	}
 }
 
-.breadcrumbs__link{
+.breadcrumbs__link {
 	font-size: 1.1rem;
 	color: $colorLink;
 
-	&:hover{
+	&:hover {
 		text-decoration: underline;
 		color: $colorLink;
 	}
@@ -196,13 +196,61 @@ margin-bottom: 1.4rem;
 
 // Title
 // --------------------------------------------------
-.section-title{
+
+.section-title {
 	margin-bottom: 2.5rem;
 }
 
 .title {
 	font-size: 2.4rem;
 }
+
+// Content
+// --------------------------------------------------
+
+.products__item{
+	@include clearfix;
+	position: relative;
+	border-top: $borderGainsborough;
+
+		&:first-child {
+		border-top: none;
+	}
+}
+
+.products__item-slideshow {
+	padding: 2rem;
+	float: left;
+	width: 30%;
+}
+
+.products__item-desc {
+	float: left;
+	width: 45%;
+	padding: 2.5rem;
+
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 0.1rem;
+		background: #e7e7e7;
+		left: 30%;
+	}
+}
+
+.products__item-buy {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 25%;
+	font-family: $helveticaMedium;
+}
+
+
+
 
 
 // Footer
@@ -221,6 +269,6 @@ margin-bottom: 1.4rem;
 	color: #2e2e2e;
 }
 
-.footer__address{
+.footer__address {
 	margin-bottom: 1.5rem;
 }
