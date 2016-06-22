@@ -29,6 +29,7 @@
 	@include maxScreen($small) {
 		text-align: center;
 	}
+
 	@include maxScreen($large) {
 		margin-bottom: 1rem;
 	}
@@ -38,7 +39,7 @@
 	max-width: 100%;
 }
 
-.header__search-wrapper{
+.header__search-wrapper {
 	@extend .cf;
 	margin-bottom: 1rem;
 }
@@ -161,9 +162,15 @@
 .nav__item-title {
 	font-size: 1.2rem;
 	text-transform: uppercase;
-	color: #fff;
+	color: $white;
 	margin-left: 1.5rem;
 	transition: color .2s linear;
+
+	@include maxScreen($large) {
+		color: $black;
+		font-size: 1.1rem;
+		margin-left: 0.5rem;
+	}
 }
 
 .nav__item_link {
@@ -179,6 +186,7 @@
 			fill: $colorLinkHover !important;
 		}
 	}
+
 }
 
 .nav__item-icon {
@@ -188,10 +196,18 @@
 		height: 100% !important;
 
 		* {
-			fill: #fff !important;
+			fill: $white !important;
 			transition: fill .2s linear;
+
+			@include maxScreen($large) {
+				fill: $black !important;
+			}
 		}
 	}
+
+	@include maxScreen($large) {
+				height: 2rem;
+			}
 }
 
 // Breadcrumbs
@@ -492,3 +508,12 @@
 .footer__address {
 	margin-bottom: 1.5rem;
 }
+
+
+// Override my-menu
+// --------------------------------------------------
+
+
+// load libs SASS
+
+@import "../../bower_components/jQuery.mmenu/dist/css/jquery.mmenu.all.css";

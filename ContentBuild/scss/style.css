@@ -1,4 +1,5 @@
-﻿* {
+﻿@import url(../../bower_components/jQuery.mmenu/dist/css/jquery.mmenu.all.css);
+* {
   box-sizing: border-box;
   outline: none;
   margin: 0;
@@ -1345,6 +1346,14 @@ ol {
   transition: color 0.2s linear;
 }
 
+@media screen and (max-width: 1024px) {
+  .nav__item-title {
+    color: #000;
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+  }
+}
+
 .nav__item_link {
   display: block;
   text-decoration: none;
@@ -1369,6 +1378,18 @@ ol {
 .nav__item-icon svg * {
   fill: #fff !important;
   transition: fill 0.2s linear;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav__item-icon svg * {
+    fill: #000 !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav__item-icon {
+    height: 2rem;
+  }
 }
 
 .breadcrumbs {
